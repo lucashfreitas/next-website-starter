@@ -1,0 +1,9 @@
+{
+  "logo": "https://i.picsum.photos/id/237/200/300.jpg",
+  "menu": [
+    {
+      "label": "Home",
+      "link": "/home"
+    }
+  ]
+}
