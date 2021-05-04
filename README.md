@@ -1,7 +1,6 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-This is just a general idea that I created and tested really quickly but feel free to modify it as you need.
-
+This is just a general idea that I created and tested really quick :)
 ## Structure
 
 This template is used to build basic websites where data is hosted in static JSON files or in an external CMS. The idea is to abstract the way we fetch data, once we have all the data types, every file inside
