@@ -5,6 +5,10 @@ const components = {
 };
 
 const theme = {
+  fonts: {
+    primary: 'Nunito-Regular',
+    bold: ' Nunito-Extrabold',
+  },
   colors: {
     primary: 'rgb(225, 108, 73)',
   },

@@ -10,19 +10,16 @@ import Nav from './nav';
 
 const HeaderWrapper = styled.header<{ scroll?: boolean }>`
   position: fixed;
+  z-index: 1;
   top: 0;
   left: 0;
-
   ${(props) =>
     props.scroll &&
     css`
-      transform: translateY(-100px);
       background: ${themeGet('components.header.background')};
     `};
 
   width: 100%;
-
-  transition: transform 0.4s;
 
   .container {
     max-width: 90%;
@@ -33,9 +30,14 @@ const HeaderWrapper = styled.header<{ scroll?: boolean }>`
 
   .logo {
     flex-shrink: 1;
-    width: 100%;
+    width: 10%;
     height: 100%;
     position: relative;
+  }
+
+  nav {
+    padding-left: 5rem;
+    width: 90%;
   }
 `;
 
@@ -55,7 +57,7 @@ const Header: React.FunctionComponent<HeaderData> = (props) => {
           />
         </div>
 
-        <Nav></Nav>
+        <Nav items={menu}></Nav>
       </div>
     </HeaderWrapper>
   );

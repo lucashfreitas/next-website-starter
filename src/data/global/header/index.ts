@@ -18,6 +18,7 @@ const convertToMenuItem: (menu: Array<any>) => Array<MenuItem> = (
   menu.map((x) => ({
     link: x.link || null,
     label: x.label || null,
+    sub: x.sub ? convertToMenuItem(x.sub) : null,
   }));
 
 const getHeaderData: FetchData<HeaderData> = async () =>

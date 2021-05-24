@@ -4,6 +4,7 @@ import {
   NextPage,
 } from 'next';
 import React from 'react';
+import HeroBanner from '../components/heroBanner';
 import getHomeData, { HomePageData } from '../data/home';
 import Layout from '../layouts/layout';
 
@@ -22,7 +23,7 @@ const Home: NextPage<InferGetServerSidePropsType<typeof getServerSideProps>> = (
   const { seo, global } = data;
   return (
     <Layout header={global.header} seo={seo}>
-      <div>ADASASASASASASA</div>
+      <HeroBanner />
 
       <footer>
         <a

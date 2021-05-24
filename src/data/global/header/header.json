@@ -2,8 +2,39 @@
   "logo": "https://www.medsailors.com/static/605235465ffb716c0c3e3496976584ee/9191d/MedSailors-Logo-01.jpg",
   "menu": [
     {
-      "label": "Home",
-      "link": "/home"
+      "label": "Destinations",
+      "link": "/destinations",
+      "sub": [
+        {
+          "label": "Croatia",
+          "link": "/destinations"
+        },
+        {
+          "label": "Greece",
+          "link": "/destinations"
+        }
+      ]
+    },
+    {
+      "label": "How it Works",
+      "link": "/destinations"
+    },
+    {
+      "label": "Our Yachts",
+      "link": "/destinations"
+    },
+    {
+      "label": "How it Works",
+      "link": "/destinations"
+    },
+
+    {
+      "label": "FAQ",
+      "link": "/destinations"
+    },
+    {
+      "label": "Contact",
+      "link": "/destinations"
     }
   ]
 }

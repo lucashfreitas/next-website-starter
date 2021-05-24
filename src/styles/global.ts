@@ -1,6 +1,10 @@
+import { themeGet } from '@styled-system/theme-get';
 import { createGlobalStyle } from 'styled-components';
-
+import Animations from './animations';
+import Fonts from './fonts';
 const GlobalStyle = createGlobalStyle`
+
+
  
  html {
    font-size: 62.5%;
@@ -40,6 +44,12 @@ a{
   text-decoration: none;
 }
 
+* {
+  font-family: ${themeGet('fonts.primary')};
+}
+
+${Fonts}
+${Animations}
 `;
 
 export default GlobalStyle;
